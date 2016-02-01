@@ -49,5 +49,6 @@ Once your installation is completed, run `gulp` to watch for changes:
 ```
 $ gulp
 ```
-
-[!output](docs/output.png)
+<p>
+<img src="docs/output.png"/>
+</p>
