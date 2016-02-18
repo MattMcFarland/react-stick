@@ -63,7 +63,7 @@ gulp.task('watch:server', function () {
   nodemon({
     script: 'bin/server.js',
     ext: 'js, css',
-    ignore: ['gulpfile.js', 'public/js/*', 'node_modules/*']
+    ignore: ['gulpfile.js', 'public/*', 'node_modules/*']
   }).on('change', [])
     .on('restart', function () {
       gutil.log('Server Restarted.');
